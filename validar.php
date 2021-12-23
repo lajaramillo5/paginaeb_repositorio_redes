@@ -15,7 +15,7 @@ $filas = mysqli_num_rows($resultado);
 
 if ($filas) {
 
-  header("location:/Paginaweb/html/");
+  header("location:html/index.html");
 } else {
 ?>
   <?php
